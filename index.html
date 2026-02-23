@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Endru_Aidil</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Animasi cursor -->
+    <canvas id="canvas"></canvas>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div><a href="#" class="nav__logo">Aidil</a></div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link ">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#portofolio" class="nav__link">Portofolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle"><i class="bx bx-menu"></i></div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi There👋<br />I'am <span id="typing-text" class="home__title-color typing">Endru Aidil</span><br />Informatics Engineering
+          </h1>
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/endru-aidil-fitriansyah-691769364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/__aiidiilll?igsh=dms2M2hmNjR5cmpi" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Aidil241" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="section about-section" id="about">
+        <h2 class="page-title">About Me</h2>
+        <div class="about-content">
+          <div class="main-box">
+            <div class="content">
+              <input type="checkbox" id="check" />
+              <div class="image-box">
+                <img src="asset/img/profile.jpeg" alt="My Photo" />
+                <div class="about">
+                  <div class="details">
+                    <span class="name">Aidil</span>
+                    <span class="job">Informatics Student</span>
+                  </div>
+                </div>
+              </div>
+              <label for="check" class="box"></label>
+            </div>
+          </div>
+
+          <div class="about-description">
+            <p>
+              "Halo, saya <strong> Endru Aidil Fitriansyah </strong>, mahasiswa <strong>Teknik Informatika</strong> di <strong>Universitas Perjuangan.</strong> Saya memiliki fokus dan ketertarikan mendalam di bidang Software Engineering. Sebagai calon pengembang perangkat lunak, saya berdedikasi untuk membangun solusi digital yang efisien, terukur, dan inovatif melalui kode."
+            </p>
+            <a href="asset/files/CV_Aidil.pdf" class="button" download>Download CV</a>
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- portofolio section  -->
+ <section class="section" id="portofolio">
+  <h2 class="page-title">Portofolio</h2>
+  <div class="portofolio-container">
+    <div class="card-1">
+      <img src="asset/img/E-Certificate Web Developer.png" />
+      <div class="card-content">
+        <h3>Software Developer</h3>
+        <p>Has expertise in developing web and software applications using HTML, CSS, Javascript, and studying modern frameworks such as react and node.js.</p>
+        <a href="asset/pdf/SEFC_endruaidil.fitriansyah@gmail.com_SEFC020625-01-1-00037.pdf" class="button">View More</a>
+      </div>
+    </div>
+    <div class="card-2">
+      <img src="asset/img/E-Certificate React Native.png" />
+      <div class="card-content">
+        <h3>React Native</h3>
+        <p>Studying development of mobile applications with React Native, focusing basics of components, navigation, while gradually exploring state management.</p>
+        <a href="asset/pdf/E-Certificate Webinar React Native Endru Aidil Fitriansyah .pdf" class="button">View More</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+    <!-- form section  -->
+     <section class="contact section" id="contact">
+  <h2 class="page-title">Get In Touch</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <div class="info-item floating" style="animation-delay: 0.2s;">
+        <div class="info-icon">📧</div>
+        <div class="info-content">
+          <h3>Email</h3>
+          <p><a href="mailto:endruaidil.fitriansyah@gmail.com">endruaidil.fitriansyah@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="info-item floating" style="animation-delay: 0.4s;">
+        <div class="info-icon">📱</div>
+        <div class="info-content">
+          <h3>Phone</h3>
+          <p><a href="tel:+1234567890">+6287823825951</a></p>
+        </div>
+      </div>
+
+      <div class="info-item floating" style="animation-delay: 0.6s;">
+        <div class="info-icon">📍</div>
+        <div class="info-content">
+          <h3>Location</h3>
+          <p>Kota Tasikmalaya</p>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-link">📘</a>
+        <a href="#" class="social-link">🐦</a>
+        <a href="#" class="social-link">📸</a>
+        <a href="#" class="social-link">💼</a>
+        <a href="#" class="social-link">🎥</a>
+      </div>
+    </div>
+    <form id="contact-form" class="contact-form">
+    <div class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Michael" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Michael@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" class="form-control" placeholder="Hello, I would like to..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+          <p id="form-success" class="form-success">The message was successful</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER SECTION  -->
+        <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">© 2025 Endru Aidil. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/endru-aidil-fitriansyah-691769364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://www.instagram.com/ndrruuu_?igsh=dms2M2hmNjR5cmpi" target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="https://github.com/EndruAidil" target="_blank"><i class='bx bxl-github'></i></a>
+          </div>
+      </div>
+    </footer>
+
+              <a href="#home" class="scroll-top" id="scroll-top">
+        <i class='bx bx-chevron-up'></i>
+      </a>
+    <!-- Script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="asset/js/script.js"></script>
+  </body>
+</html>
